@@ -1,6 +1,29 @@
 body {
    background-image: url("./images/img2.png");
 }
+
+pre{
+  
+  margin: 10px;
+  background-color: #ffffff;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  color: #090772;
+  border: 2px solid #4676fa;
+  
+}
+details > summary{
+  background-color: #000000;
+  border-radius: 5%;
+  margin-left: 42%;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  color: rgb(199, 199, 199);
+  width: 220px;
+  border: 2px solid #00fff2;
+}
 #videoInput {
     margin-bottom: 10px;
 }
@@ -93,6 +116,7 @@ button:active {
   }
   /* -------------------------------- */
   #yt-icon {
+    font-size: 20px;
     position: absolute;
     background-color: #fff;
     width: 45px;
@@ -134,7 +158,7 @@ button:active {
     border-radius: 15px;
     border: 2px solid #8f8989;
   }
-
+ 
   @media screen and (max-width :600px) {
   
   .title{
@@ -146,5 +170,8 @@ button:active {
   }
   input {
     width: 150px;
+  }
+  details > summary{
+    margin-left: 23%;
   }
 }
