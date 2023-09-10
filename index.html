@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/no-ads-icon.ico">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-9p/EzXeJ6jvMchMlLQ4Xwc5PQb4cBw/izF7+Z+P7wqLdN8k3jHpy3u5Rd8+Ry0AjlJ5YzXwWQo7Q+8ZL7RcG8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta thhp-equiv="X-UA-Compatible" content="IE=edge ,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="To watch YouTube videos without annoying ads-لمشاهدة فيديوهات اليوتيوب بدون اعلانات مزعجة">
+    <meta name="keywords" content=" youtube , html, js, css, no ads , youtube ads , block ads youtube ,video,without ads">
+    <meta name="author" content="Ahmed ELsaman">
+    <meta name="robots" content="index, follow">
+    <meta name="og:title" content="𝕍𝕀𝔼𝕎 𝕍𝕀𝔻𝔼𝕆 𝔽ℝ𝕆𝕄 𝕐𝕆𝕌𝕋𝕌𝔹𝔼">
+    <meta name="og:description" content="To watch YouTube videos without annoying ads-لمشاهدة فيديوهات اليوتيوب بدون اعلانات مزعجة">
+    <meta name="og:image" content="https://appuals.com/wp-content/uploads/2023/02/Ad-Free-YouTube-on-Android-TV-Google-TV.jpg">
+    <meta name="og:type" content="website">
+    <meta name="og:locale" content="en ,ar">
+    <title>𝕍𝕀𝔼𝕎 𝕍𝕀𝔻𝔼𝕆 𝔽ℝ𝕆𝕄 𝕐𝕆𝕌𝕋𝕌𝔹𝔼</title>
+</head>
+<body>
+  <header>
+    <a target="_blank" style="text-decoration: none; color: rgb(0, 0, 0);" href="https://www.youtube.com/" >
+      <div title="Choose a Video From YouTube" id="yt-icon" onclick="playClickSound();">
+        <i class="fab fa-youtube"></i>
+      </div>
+    </a>
+      <!-- ----------------------------------------- -->
+      <a style="text-decoration: none; color: rgb(0, 0, 0);" href="abme.html" >
+        <div title="About Me" id="user-icon" onclick="playClickSound();">
+          <i  class="fa fa-user"></i>
+        </div>
+      </a>
+      </header>
+      <br><br>
+      <section>
+    <div id="conictor" class="conictor">
+    <h1 class="title" id="title"><b style="color: cornsilk;">𝕍𝕀𝔼𝕎</b><b style="color: red;"> 𝕐𝕋 </b><b style="color: rgb(0, 60, 255);">𝕍𝕀𝔻𝔼𝕆</b> <b style="color: rgb(0, 255, 0);">𝕎𝕀𝕋ℍ𝕆𝕌𝕋</b> <b style="color: rgb(255, 217, 0);"> 𝔸𝔻𝕊 </b></h1>
+    <br>
+    <input type="text" id="videoInput" placeholder="Enter YT Video Link ">
+    <button class="view-video" onclick="displayVideo(); playClickSound();">View video</button>
+    <br>
+    <iframe name="videoFrame" id="videoFrame" src="" frameborder="1" allowfullscreen></iframe><br>
+    <p id="error">The video link is incorrect! 🥲</p>
+    </div>
+</section>
+<audio id="clickSound">
+  <source src="button-click.mp3" type="audio/mpeg">
+
+  </audio>
+    <script src="./script.js"></script>
+</body>
+</html>
