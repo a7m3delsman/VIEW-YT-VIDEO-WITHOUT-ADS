@@ -2,7 +2,8 @@ body {
    background-image: url("./images/img2.png");
 }
 
-pre{
+pre
+{
   
   margin: 10px;
   background-color: #ffffff;
@@ -172,6 +173,7 @@ button:active {
     width: 150px;
   }
   details > summary{
-    margin-left: 23%;
+    margin-left: 21%;
+    font-size: 13px;
   }
 }
