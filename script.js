@@ -12,14 +12,11 @@ function extractVideoId(url) {
     var match = url.match(regExp);
 
     if (match && match[7].length === 11) {
-        document.getElementById('title').style.marginTop='0';
-       
         hideP("error");
         nohideIframe("videoFrame");
         return match[7];
       
-    } else {
-        document.getElementById('title').style.marginTop='50px';
+    } else {
         hideIframe("videoFrame");
         nohideP("error");
     }
