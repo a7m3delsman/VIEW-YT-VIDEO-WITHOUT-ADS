@@ -16,7 +16,8 @@ function extractVideoId(url) {
         nohideIframe("videoFrame");
         return match[7];
       
-    } else {
+    } else {
+
         hideIframe("videoFrame");
         nohideP("error");
     }
@@ -49,6 +50,30 @@ function nohideP(pId) {
       fram.style.display = "inline-block";
     }
   }
+const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.getElementById('user-icon');
+const menu_items = document.querySelectorAll('nav .mainMenu li a');
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+
+menu_items.forEach(item => {
+    item.addEventListener('click',function(){
+        close();
+    })
+})
+
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0%';
+}
+function close(){
+    mainMenu.style.top = '-100%';
+    return;
+}
+
   var audio = new Audio('button-click.mp3');
 function playClickSound() {
     clickSound.currentTime = 0;
