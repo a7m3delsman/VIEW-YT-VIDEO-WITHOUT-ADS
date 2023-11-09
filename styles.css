@@ -1,7 +1,12 @@
 body {
    background-image: url("./images/img2.png");
 }
-
+#logo{
+  margin-top: -400px;
+  position: absolute; 
+  height: 460px ;
+  width: 460px;
+}
 pre
 {
   
@@ -346,6 +351,12 @@ span{
     #videoFrame{
     width: 320px;
     height: 180px;
+  }
+   #logo{
+    position: absolute;
+    width: 344px;
+    left: 55px;
+    height: 344px;
   }
   input {
     width: 150px;
