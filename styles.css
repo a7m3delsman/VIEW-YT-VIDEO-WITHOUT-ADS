@@ -39,7 +39,7 @@ h1{
     text-shadow: 0px 0px 2px rgb(184, 174, 174);
   }
   
-  p{
+  #error{
     display: none;
     font-size: 20px;
     color: #dd0000;
